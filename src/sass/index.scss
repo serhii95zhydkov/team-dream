@@ -1,10 +1,36 @@
-@import './utils/variables';
+/* todo автофокус на полі у подалці - через JS*/
 
-@import './base/common';
+// Змінні
+@import "./utils/variables";
+@import "./utils/breakpoints";
 
-@import './componets/container';
-@import './componets/button';
+// Нормалізація стилів
+@import "./base/modern-normalize";
+@import "./base/project-normalize";
 
-@import './layout/common';
-@import './layout/example';
-@import './layout/header';
+
+// Загальні компоненти
+
+@import "./components/hidden";
+@import "./components/buttons";
+@import "./components/container";
+@import "./components/section";
+@import "./components/logo";
+@import "./components/socials";
+
+// Капелюх
+@import "./layout/header";
+
+// Головна сторінка 
+@import "./layout/hero";
+@import "./layout/pop-tools";
+@import "./layout/customers";
+@import "./layout/new-tools";
+@import "./layout/team";
+@import "./layout/joinus";
+
+// Нижній колонтитул
+@import "./layout/footer";
+
+// Модальне вікно
+@import "./layout/modal";
