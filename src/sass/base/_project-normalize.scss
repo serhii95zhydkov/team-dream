@@ -1,0 +1,52 @@
+/* ========== СКИДАННЯ СТИЛІВ ==========  */
+body {
+    background-color: var(--simple-white);
+    font-family: var(--brand-font), sans-serif;
+    letter-spacing: var(--brand-letter-spacing);
+    color: var(--brand-grey);
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Знімаю стилізацію з ul */
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Знімаю стилізацію з <a> */
+a {
+    text-decoration: none;
+}
+
+/* Заборона зміну розміру в textarea */
+textarea {
+    resize: none;
+}
+
+button {
+    cursor: pointer;
+    
+    // не дозволяє кнопці вилазити за межі батька
+    box-sizing: border-box;
+}
+
+/* ========== /СКИДАННЯ СТИЛІВ ========== */
