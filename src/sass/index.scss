@@ -1,36 +1,35 @@
 /* todo автофокус на полі у подалці - через JS*/
 
 // Змінні
-@import "./utils/variables";
-@import "./utils/breakpoints";
+@import './utils/variables';
+@import './utils/breakpoints';
 
 // Нормалізація стилів
-@import "./base/modern-normalize";
-@import "./base/project-normalize";
-
+@import './base/modern-normalize';
+@import './base/project-normalize';
 
 // Загальні компоненти
 
-@import "./components/hidden";
-@import "./components/buttons";
-@import "./components/container";
-@import "./components/section";
-@import "./components/logo";
-@import "./components/socials";
+@import './components/hidden';
+@import './components/buttons';
+@import './components/container';
+@import './components/section';
+@import './components/logo';
+@import './components/socials';
 
 // Капелюх
-@import "./layout/header";
+@import './layout/header';
 
-// Головна сторінка 
-@import "./layout/hero";
-@import "./layout/pop-tools";
-@import "./layout/customers";
-@import "./layout/newcomer-tools";
-@import "./layout/team";
-@import "./layout/joinus";
+// Головна сторінка
+@import './layout/hero';
+@import './layout/pop-tools';
+@import './layout/customers';
+@import './layout/newcomer-tools';
+@import './layout/team';
+@import './layout/joinus';
 
 // Нижній колонтитул
-@import "./layout/footer";
+@import './layout/footer';
 
 // Модальне вікно
-@import "./layout/modal";
+@import './layout/modal';

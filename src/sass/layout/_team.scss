@@ -1,4 +1,51 @@
 /* ========== TEAM ========== */
+.employee {
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+}
+.employee__text {
+  position: relative;
+  width: 393px;
+  z-index: -1;
+  margin: 0 auto;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 2.14;
+  letter-spacing: 0.015em;
+  color: rgba(255, 255, 255, 0.78);
+}
 
+.employee__text::after {
+  position: absolute;
+
+  top: -68%;
+  left: -25%;
+  content: '';
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/originals/svg/non-colorize/heart.svg);
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 /* ========== /TEAM ========== */
+
+.slick-prev,
+.slick-next {
+  // background-color: yellow;
+}
+
+.slick-dots li button:before {
+  width: 44px;
+  height: 8px;
+  background-color: #ff6e30;
+  content: '';
+  border-radius: 4px;
+}
+
+.slick-dots li {
+  margin: 0 20px;
+}
